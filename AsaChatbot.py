@@ -1,9 +1,9 @@
 import streamlit as st
 
 # Adding title
-st.title('Chatbot For Beginner')
+st.title('ASA CHATBOT')
 
-st.write('Welcome to the chatbot! Please ask your question and I will try to answer it.')
+st.write('Welcome to the chatbot! How can I assist you today?')
 
 # Streamlit input and output
 question = st.text_input('Ask a question:', key='unique_key')
@@ -12,7 +12,7 @@ if question:
     if question.lower() == 'hello':
         st.write('Hello! How can I help you?')
     elif question.lower() == 'what is your name?':
-        st.write('My name is Claude.')
+        st.write('I am ASA CHATBOT, your AI assistant. How can I help you today?')
     elif question.lower() == 'how are you doing today?':
         st.write("I'm doing well, thanks for asking!")
     elif question.lower() == 'how can you help me?':
